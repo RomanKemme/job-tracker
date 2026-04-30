@@ -43,6 +43,7 @@ function App() {
           <option>Interview</option>
           <option>Angebot</option>
           <option>Abgelehnt</option>
+          <option>Noch nicht beworben</option>
         </select>
         <input placeholder="Notizen" value={notizen} onChange={e => setNotizen(e.target.value)} />
         <button onClick={createJob}>➕ Hinzufügen</button>
